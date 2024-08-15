@@ -1,0 +1,37 @@
+body {
+    background-color: beige;
+}
+
+#title {
+    text-align: center;
+    margin: 5% 0% 5% 0%;
+    color: rgb(151, 153, 39);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.message {
+    margin: 0% 0% 5% 2%;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(182, 182, 125);
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    column-gap: 5em;
+    margin: 0 5% 2% 0;
+    padding: 1% 0 1% 0;
+    background-color: rgb(134, 134, 67);
+}
+.header img {
+    height: 5%;
+    width: 5%;
+}
+.message p {
+    padding: 2% 5% 5% 5%;
+}
+
+#conversation {
+    margin: auto;
+    display: block;
+}

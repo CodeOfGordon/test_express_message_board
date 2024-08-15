@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="/form.css" >
+</head>
+
+<body>
+    <div id="form">
+        <form method="POST" action="/new">
+            <h1> Enter a new message! </h1>
+            <div class="inputs">
+                <p>
+                    Enter your username <input name="user" size="50em" />
+                </p>
+                <textarea name="text" rows="20" cols="150"
+                placeholder="Enter your message to the board here!">
+                </textarea>
+                <br>
+                <button>Submit</button>
+            </div>
+        </form>
+    </div>
+    <form action="/">
+        <button id="msgBoard">
+            <img src="/images/return.png" />
+            <h2>Return to board</h2>
+        </button>
+    </form>
+</body>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>Message board</title>
+    <link rel="stylesheet" href="/index.css">
+</head>
+<body>
+    <h1 id="title">Express Test Message Board</h1>
+    <% messages.map((message) => { %>
+        <div class="message">
+            <div class="header">
+                <img src=<%= message.profile %> />
+                <h2> <%= message.user %> </h2>
+                <h2> <%= message.added %> </h2>
+            </div>
+            <p> <%= message.text %> </p>
+        </div>
+    <% }); %> 
+
+    <form action="/new">
+        <button id="conversation"><h2>Join the conversation!</h2></button>
+    </form>
+</body>
+</html>
