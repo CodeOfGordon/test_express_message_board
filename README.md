@@ -1,0 +1,1 @@
+https://minimsgboardd.adaptable.app
