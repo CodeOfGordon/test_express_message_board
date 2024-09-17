@@ -1,1 +1,1 @@
-https://minimsgboardd.adaptable.app
+https://test-express-message-board.fly.dev/
